@@ -19,7 +19,7 @@ localtime = time.localtime(time.time()+10800)
 time_now=f'بسم الله الرحمن الرحيم\n{localtime.tm_mday}/{localtime.tm_mon}/{localtime.tm_year}  {localtime.tm_hour}:{localtime.tm_min}'
 
 
-@dp.message_handler(chat_type=[ChatType.SUPERGROUP, ], commands=['.'])
+@dp.message_handler(chat_type=[ChatType.SUPERGROUP, ], commands=['finder'])
 async def cmd_start(message: types.Message):
     t= '@finder_new_coins_bot'
     await bot.send_message(-1001571458368, text=t)
