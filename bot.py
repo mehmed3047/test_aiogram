@@ -1,5 +1,6 @@
 #......
-TOKEN = "5252631688:AAHpRtKzJCZL2-KjD48dtE8s0DLvTxDcHKA"
+TOKEN = "5413252425:AAHvDoAQm8OGCKI6KnnGqCJG-Mk1vwrBIU8"
+# @ finder_new_coins_bot
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
