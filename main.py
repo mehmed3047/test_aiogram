@@ -1,4 +1,5 @@
-#......
+import time,requests
+"""
 TOKEN = "5413252425:AAHvDoAQm8OGCKI6KnnGqCJG-Mk1vwrBIU8"
 # @ finder_new_coins_bot
 import logging
@@ -30,4 +31,16 @@ async def cmd_start(message: types.Message):
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=True) """
+
+
+def my_bot(text=None):
+	url ='https://api.telegram.org/bot5252631688:AAHi2zgDYfItn01qXs36gfOHZOsMrllKbmk/sendmessage?chat_id=-1001571458368&amp;text=Sample'
+	data ={'text':text}
+	r= requests.get(url,params=data)
+
+while 1:
+    my_bot(text='merhama mehmed')
+    time.sleep(8)
+
+
