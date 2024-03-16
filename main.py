@@ -10,6 +10,4 @@ def my_bot(text=None):
     data ={'text':text}
     r= requests.get(url,params=data)
 
-while 1 :
- my_bot(text='salam')
- time.sleep(12)
+
